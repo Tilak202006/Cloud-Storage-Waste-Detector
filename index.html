@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Storage Waste Detector</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #101827;
+            color: white;
+            text-align: center;
+        }
+        header {
+            padding: 70px 20px;
+            background: linear-gradient(135deg, #172554, #2563eb);
+        }
+        h1 { font-size: 42px; }
+        header p { font-size: 18px; }
+        .section {
+            padding: 35px 20px;
+            max-width: 850px;
+            margin: auto;
+        }
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 18px;
+        }
+        .card {
+            background: #1e293b;
+            padding: 22px;
+            border-radius: 12px;
+            width: 210px;
+        }
+        .button {
+            display: inline-block;
+            background: #38bdf8;
+            color: #082f49;
+            padding: 13px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+        footer {
+            padding: 25px;
+            background: #080f1d;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>☁️ Cloud Storage Waste Detector</h1>
+    <p>Detect duplicate files and identify potential cloud storage waste.</p>
+    <a class="button" href="#about">Explore Project</a>
+</header>
+
+<section class="section" id="about">
+    <h2>About the Project</h2>
+    <p>
+        Cloud Storage Waste Detector is a cloud-based project
+        designed to identify duplicate files and analyze storage
+        usage to help reduce unnecessary storage consumption.
+    </p>
+</section>
+
+<section class="section">
+    <h2>Technologies Used</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Amazon S3</h3>
+            <p>Stores uploaded files.</p>
+        </div>
+        <div class="card">
+            <h3>AWS Lambda</h3>
+            <p>Analyzes files and detects duplicates.</p>
+        </div>
+        <div class="card">
+            <h3>Amazon DynamoDB</h3>
+            <p>Stores file metadata and analysis results.</p>
+        </div>
+        <div class="card">
+            <h3>Python & Streamlit</h3>
+            <p>Provides the dashboard interface.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <h2>Key Features</h2>
+    <p>✔ Duplicate file detection</p>
+    <p>✔ SHA-256 hash-based comparison</p>
+    <p>✔ Storage usage analysis</p>
+    <p>✔ Duplicate file identification</p>
+</section>
+
+<footer>
+    <p>Cloud Storage Waste Detector | Project 2026</p>
+    <p>Developed by Tilak</p>
+</footer>
+
+</body>
+</html>
